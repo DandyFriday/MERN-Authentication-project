@@ -38,8 +38,7 @@ const LoginPage = () => {
 					/>
 
 					<Input
-						icon={Lock}
-						
+						icon={Lock}						
 						placeholder='Password'
 						value={password}
 						onChange={(e) => setPassword(e.target.value)}
@@ -47,7 +46,7 @@ const LoginPage = () => {
 
 					<div className='flex items-center mb-6'>
 						<Link to='/forgot-password' className='text-sm text-green-400 hover:underline'>
-							Forgot password?
+							Forgot password?												q
 						</Link>
 					</div>
 					{error && <p className='text-red-500 font-semibold mb-2'>{error}</p>}
